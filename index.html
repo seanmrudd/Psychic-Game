@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="spreadsheet" href="assets/css/reset.css">
-    <link rel="spreadsheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Bree+Serif" rel="stylesheet">
 </head>
 
-<body>
-    <h1>The Psychic Game</h1>
-    <p>Guess what letter I'm thinking of.</p>
+<body onload = "gameStart()">
 
-    <button onclick = "gameStart()">Press to Start/Restart</button>
+    <header>
+        <h1>The Psychic Game</h1>
+        <h3>Guess what letter I'm thinking of.</h3>
+    </header>
 
-    <div id="end-game">
-    <p id = "wins-text"></p>
-    <p id = "losses-text"></p>
-    <p id = "guessesLeft-text"></p>
-    <p id = "guessesSoFar-text"></p>
-    </div>
+    <main>
+        <p id = "wins-text"></p>
+        <p id = "losses-text"></p>
+        <p id = "guessesLeft-text"></p>
+        <p id = "guessesSoFar-text"></p>
+    </main>
     
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 
