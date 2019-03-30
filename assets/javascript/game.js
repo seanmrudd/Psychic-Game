@@ -2,6 +2,7 @@
 // Choices computer can pick from
 var letterBank = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
+// Set wins and losses to zero when the page loads.  Doesn't get displayed until onkeyup function
 var wins = 0;
 var losses = 0;
 
