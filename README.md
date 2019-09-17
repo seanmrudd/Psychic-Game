@@ -11,3 +11,6 @@ awarded a loss and the computer will pick a new letter for you to guess.
 Comments:
 Pyschic Game is a javaScript based game that utilizes arrays, assigning variables, loops, on event functions, and pushing text to the web page.
 Creating this game was a challange for me, however, I'm happy that I was able to complete it.
+
+Link:
+[Play game here](https://seanmrudd.github.io/Psychic-Game/)
