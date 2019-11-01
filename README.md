@@ -1,4 +1,6 @@
 # Psychic-Game
+(My first JavaScript game.)
+
 Guess what letter the computer is thinking of.
 
 How to play:
